@@ -22,7 +22,7 @@ function runcheck(){
     let botchoice = randomd();
     if ((userchoice === 'red' && botchoice === 'yellow') || (userchoice === 'pink' && botchoice === 'red') || (userchoice === 'yellow' && botchoice === 'pink') ) {
         //console.log('win');
-        document.querySelector('#check').innerHTML = `Wou Win... Wongratulation!`;
+        document.querySelector('#check').innerHTML = `You Win... Congratulation!`;
         //document.querySelector('#bott').innerText = result;
         document.querySelector('body').style.backgroundColor = 'green';
     }else if(userchoice === botchoice){
